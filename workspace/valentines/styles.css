@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Emilys Candy";
+  background-color: #fff8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #7a0811;
+  font-size: 3rem;
+  margin-top: 0;
+}
+p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 340px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  height: 300px;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+  width: 50%;
+  padding: 4px;
+  border: 1px solid #7a0811;
+  background-color: transparent;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.1s;
+  width: 150px;
+}
+button:hover {
+  color: white;
+}
+#yes {
+  background-color: lightgreen;
+}
+
+#no {
+  background-color: lightcoral;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+span {
+  color: #7a0811;
+}
+
+#birds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#yes:hover {
+  transform: scale(2);
+  transition: transform 0.5s;
+}
+
+#no:hover {
+  transform: scale(0.2);
+  transition: transform 0.5s;
+}
+
+.shake {
+  animation: shake infinite 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
