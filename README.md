@@ -1,3 +1,4 @@
 # JDT-spring-25-alpha
-### alpha - the repository for the HTML, CSS, and JS workshop sessions
-This will be our initial repository for the first handful of workshop sessions. The code from each workshop will be uploaded to the reference folder following each workshop.
+My projects that I made throughout my time in the Junior Development Team Workshops
+
+1. https://jdt-spring-25-alpha-valentines.vercel.app/
